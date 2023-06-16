@@ -25,7 +25,7 @@ export const Application = () => {
         <div>
           <label htmlFor="job-location">Name</label>
           <select id="job-location">
-            <option value="">Select a country</option>
+            <option value="">Select a c ountry</option>
             <option value="US">United States</option>
             <option value="GB">United Kingdom</option>
             <option value="CA">Canada</option>
@@ -42,5 +42,5 @@ export const Application = () => {
         <button disabled>Submit</button>
       </form>
     </>
-  );
-};
+  )
+}
